@@ -1,0 +1,35 @@
+body{	
+	font:15px/1.5 Arial, Helvetica, sans-serif;
+	padding: 0;
+	margin: 0;
+	background-color: #f4f4f4;
+}
+
+/*
+. = class
+# = id	
+*/
+
+/*Global*/
+.container{
+	width:80%;
+	margin:auto;
+	/*move the container in*/
+	overflow:hidden;
+	/*no scroll bar*/
+}
+
+header{
+	background:#35424a;
+	color:#ffffff;
+      /*White Lettering; could also use #fff*/
+    padding-top:30px;
+    min-height:70px;
+    border-bottom:#e8491d 3px solid; 
+      
+ 
+
+}
+
+
+
