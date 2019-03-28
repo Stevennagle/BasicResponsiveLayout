@@ -19,6 +19,12 @@ body{
 	/*no scroll bar*/
 }
 
+ul{
+	margin: 0;
+	padding: 0;
+}
+
+
 header{
 	background:#35424a;
 	color:#ffffff;
@@ -34,11 +40,6 @@ header a{
 	/*removes underline*/
 	text-transform: uppercase;
 	font-size: 16px;
-}
-
-header ul{
-	margin: 0;
-	padding: 0;
 }
 
 header li{
@@ -59,6 +60,46 @@ header #branding h1{
 
 header nav{
 	float: right;
+	margin-top: 10px;
+	/*move nav down inside of container/header*/
+
+}
+
+header .highlight, header .current a{
+	/*Both classes: highlight and current with an achor tag, will share these attributes*/
+	color: e9491d;
+	font-weight: bold;
+}
+
+header a:hover{
+	color: #cccccc;
+	font-weight: bold;
+}
+
+
+/*Showcase*/
+#showcase{
+	min-height: 400px;
+	background:url('../img/showcase.jpg') no-repeat 0 -400px;
+	/*move picture up*/
+	text-align: center;
+	color:#ffffff;
+}
+
+#showcase h1{
+	margin-top: 100px;
+	font-size: 55px;
+	margin-bottom: 10px;
+}
+
+#showcase p{
+	font-size: 20px;
+}
+
+#newsletter{
+	padding: 15px;
+	color:#ffffff;
+	
 }
 
 
