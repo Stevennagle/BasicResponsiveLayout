@@ -150,6 +150,19 @@ header a:hover{
 	/*Changed the overall size of the images in the .box containers*/
 }
 
+/*sidebar*/
+aside#sidebar{
+	float: right;
+	width: 30%;
+	margin-top: 10px;
+}
+
+/*main-col*/
+article#main-col{
+	float: left;
+	width: 65%;
+}
+
 footer{
 	padding: 20px;
 	margin-top: 20px;
