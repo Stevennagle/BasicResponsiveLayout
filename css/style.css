@@ -34,6 +34,14 @@ ul{
 	color: #ffffff;
 }
 
+
+.dark{
+	padding: 15px;
+	background:#35424a;
+	color: #ffffff;
+	margin: 10px 0 10px 0; 
+}
+
 header{
 	background:#35424a;
 	color:#ffffff;
@@ -162,6 +170,15 @@ article#main-col{
 	float: left;
 	width: 65%;
 }
+
+/*Links*/
+ul#services li{
+	list-style:none;
+	padding: 20px;
+	border:#cccccc solid 1px;
+	margin-bottom: 5px;
+}
+
 
 footer{
 	padding: 20px;
