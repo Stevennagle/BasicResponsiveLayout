@@ -172,11 +172,12 @@ article#main-col{
 }
 
 /*Links*/
-ul#services li{
+ul#links li{
 	list-style:none;
 	padding: 20px;
 	border:#cccccc solid 1px;
-	margin-bottom: 5px;
+	margin: 20px;
+	background:#e6e6e6;
 }
 
 
@@ -186,10 +187,22 @@ footer{
 	color:#fff;
 	background-color: e8491d;
 	text-align: center;
+    
 }
 
-
-
+/*Media Queries*/
+@media (max-width:768px) {
+	header #branding, 
+	header nav,
+	header nav li{
+		float: none;
+		text-align: center;
+		width: 100%;
+	}
+	header{
+		padding-bottom: 20px;
+	}
+}
 
 
 
