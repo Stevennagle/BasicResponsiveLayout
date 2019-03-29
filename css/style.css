@@ -133,6 +133,33 @@ header a:hover{
 	margin-top: 20px;
 }
 
+#boxes .box{
+	
+	float: left;
+	/*Float makes the boxes line up horizontally*/
+	text-align: center;
+	width: 30%;
+	/*style each box (3) <div class="box">  at 30% of screen*/
+	padding: 10px;
+	/*More padding will spread the boxes across the page*/
+}
+
+
+#boxes .box img{
+	width: 90px;
+	/*Changed the overall size of the images in the .box containers*/
+}
+
+footer{
+	padding: 20px;
+	margin-top: 20px;
+	color:#fff;
+	background-color: e8491d;
+	text-align: center;
+}
+
+
+
 
 
 
